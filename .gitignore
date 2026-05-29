@@ -1,0 +1,37 @@
+# Ignore build directories and generated files
+build/
+cmake-build-*/
+
+# CMake files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Visual Studio
+*.sln
+*.vcxproj*
+*.vcxproj.filters
+*.vcxproj.user
+*.suo
+*.user
+_UpgradeReport_Files/
+Backup*/
+ipch/
+*.opensdf
+*.sdf
+*.VC.db
+
+# Debug / Release files
+*.ilk
+*.pdb
+*.obj
+*.exe
+
+# IDE and editor
+.vscode/
+*.idea/
+
+# Misc
+*.log
+*.recipe
